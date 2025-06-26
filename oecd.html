@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OECD Teaching Compass: 교사 재교육 과정</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        /* 추가적인 커스텀 스타일 */
+        body {
+            font-family: 'Pretendard', sans-serif; /* 시스템 폰트 또는 선호하는 폰트로 변경 가능 */
+        }
+        .card {
+            @apply bg-white rounded-xl shadow-lg overflow-hidden p-6 md:p-8 transition-shadow duration-300 hover:shadow-2xl;
+        }
+        .card-title {
+            @apply text-2xl font-bold text-slate-800 mb-4 flex items-center;
+        }
+        .card-title i {
+            @apply mr-3 text-blue-600;
+        }
+        .btn {
+            @apply bg-blue-600 text-white font-semibold py-2 px-5 rounded-full transition-all duration-300 ease-in-out transform hover:bg-blue-700 hover:scale-105 hover:shadow-lg;
+        }
+        .prose-custom {
+            @apply prose prose-slate max-w-none prose-headings:text-slate-800 prose-a:text-blue-600 hover:prose-a:text-blue-800 prose-strong:text-slate-700;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-600">
+
+    <div class="container mx-auto px-4 py-8">
+        <div class="lg:flex lg:space-x-8">
+
+            <!-- 사이드바 (데스크톱에서 고정) -->
+            <aside class="lg:w-1/4 lg:sticky top-8 self-start mb-8 lg:mb-0">
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <h2 class="text-xl font-bold text-slate-800 mb-4 flex items-center">
+                        <i class="fas fa-compass mr-2 text-blue-600"></i> 학습 목차
+                    </h2>
+                    <nav>
+                        <ul class="space-y-2">
+                            <li><a href="#introduction" class="block font-medium text-slate-600 hover:text-blue-600 hover:pl-2 transition-all duration-200"><i class="fas fa-book-open w-6"></i> 서론</a></li>
+                            <li><a href="#anchor" class="block font-medium text-slate-600 hover:text-blue-600 hover:pl-2 transition-all duration-200"><i class="fas fa-anchor w-6"></i> 앵커: 강력한 자아개념</a></li>
+                            <li><a href="#agency" class="block font-medium text-slate-600 hover:text-blue-600 hover:pl-2 transition-all duration-200"><i class="fas fa-people-arrows w-6"></i> 교사 주도성</a></li>
+                            <li><a href="#competencies" class="block font-medium text-slate-600 hover:text-blue-600 hover:pl-2 transition-all duration-200"><i class="fas fa-brain w-6"></i> 교사 역량</a></li>
+                            <li><a href="#wellbeing" class="block font-medium text-slate-600 hover:text-blue-600 hover:pl-2 transition-all duration-200"><i class="fas fa-heart-pulse w-6"></i> 교사 웰빙</a></li>
+                            <li><a href="#ecosystem" class="block font-medium text-slate-600 hover:text-blue-600 hover:pl-2 transition-all duration-200"><i class="fas fa-sitemap w-6"></i> 학습 생태계</a></li>
+                            <li><a href="#conclusion" class="block font-medium text-slate-600 hover:text-blue-600 hover:pl-2 transition-all duration-200"><i class="fas fa-flag-checkered w-6"></i> 결론</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+
+            <!-- 메인 콘텐츠 -->
+            <main class="lg:w-3/4 space-y-8 prose-custom">
+
+                <!-- 헤더 섹션 -->
+                <header class="card text-center">
+                    <img src="https://www.oecd.org/media/oecdorg/directorates/directorateforeducationandskills/education-policy-perspectives-123-web-banner-810x420.png" alt="OECD Teaching Compass Banner" class="rounded-lg mb-6 shadow-md">
+                    <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight">OECD Teaching Compass</h1>
+                    <p class="mt-4 text-xl text-slate-500">교사 재교육을 위한 핵심 개념 학습</p>
+                    <p class="mt-2">교사를 교육과정 변화의 주체로 재구성하기 위한 지침</p>
+                    <a href="#introduction" class="btn mt-6 inline-block">
+                        <i class="fas fa-play mr-2"></i> 학습 시작하기
+                    </a>
+                </header>
+
+                <!-- 1. 서론 -->
+                <section id="introduction" class="card">
+                    <h2 class="card-title"><i class="fas fa-book-open"></i>서론: Teaching Compass란?</h2>
+                    <p>Teaching Compass는 가르친다는 것과 교사가 된다는 것의 의미에 대한 미래 지향적이고 총체적인 비전을 제공합니다. 이는 교사와 학습자 모두에게 힘을 실어주어 우리가 원하는 교육, 사회, 그리고 지구의 미래를 만들어가는 데 투자하는 것을 목표로 합니다.</p>
+                    <p>복잡성, 변화, 불확실성의 시대에 교사의 역할은 그 어느 때보다 중요합니다. Teaching Compass는 이러한 시대적 요구에 부응하여 교사들이 21세기에 성공적으로 교육하고 학습의 미래를 만들어갈 수 있도록 지원합니다.</p>
+                    
+                    <div class="mt-6 border-t pt-6">
+                        <h3 class="text-xl font-semibold text-slate-700 mb-3">핵심 가치 제안</h3>
+                        <ul class="list-disc list-inside space-y-2">
+                            <li><strong>학습과 교수의 일관성:</strong> 학습의 '왜'와 '무엇'을 정의하는 Learning Compass와 교수의 '왜'와 '어떻게'를 제시하는 Teaching Compass를 연결합니다.</li>
+                            <li><strong>교육과정 변화와 실행의 연결:</strong> 교육과정 목표와 교사 역량 사이의 간극을 줄여, 이론이 아닌 실제 교실에서 현대적 교육과정을 실현할 수 있도록 합니다.</li>
+                            <li><strong>공동의 비전:</strong> 교육 이해관계자들이 함께 협력할 수 있는 공통의 언어와 비전을 제공하여 체계적이고 포괄적인 교육 혁신을 촉진합니다.</li>
+                            <li><strong>교직의 재구성:</strong> 교사의 전문적 정체성, 주도성, 역량, 웰빙을 통합하여 교직의 위상과 사회적 인식을 높입니다.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- 2. 앵커: 강력한 자아개념 -->
+                <section id="anchor" class="card">
+                    <h2 class="card-title"><i class="fas fa-anchor"></i>앵커: 강력한 자아개념으로 변화 탐색하기</h2>
+                    <p>Teaching Compass의 중심에는 교사들이 전문적 주도성, 역량, 웰빙을 확고히 발전시킬 수 있도록 하는 '강력한 자아개념'이라는 내면의 앵커(닻)가 있습니다. 이 앵커는 교사들이 디지털 전환, AI 통합 등 급변하는 환경 속에서 길을 잃지 않도록 돕는 안정적인 버팀목입니다.</p>
+                    
+                    <!-- 아코디언 -->
+                    <div class="space-y-4 mt-6">
+                        <div class="accordion-item border rounded-lg">
+                            <button class="accordion-toggle w-full flex justify-between items-center text-left p-4 bg-slate-100 hover:bg-slate-200 transition rounded-t-lg">
+                                <span class="font-semibold text-slate-800">내면의 앵커: Being, Belonging, Becoming</span>
+                                <i class="fas fa-plus transition-transform"></i>
+                            </button>
+                            <div class="accordion-content p-4 border-t hidden">
+                                <ul class="list-disc list-inside space-y-3">
+                                    <li><strong>Being (진정한 자기 인식):</strong> 교사들이 자신의 신념과 가치에 기반하여 실천하도록 돕는 진정성에 뿌리를 둔 자기 인식입니다. 이는 직업적 정체성, 존엄성, 성실성의 기반이 됩니다.</li>
+                                    <li><strong>Belonging (상호 지지적 관계):</strong> 학교 공동체의 일원으로서 존중받고 지지받는다는 소속감입니다. 심리적 안정감과 신뢰, 배려하는 관계를 통해 형성됩니다.</li>
+                                    <li><strong>Becoming (지속적인 성장과 변화):</strong> 평생 학습과 성찰적 실천을 통해 끊임없이 발전하는 역동적인 상태입니다. 지속적인 전문 학습(CPL), 자기주도 학습(SDL)을 통해 이루어집니다.</li>
+                                </ul>
+                                <p class="mt-4">이 세 가지 차원이 통합될 때, 교사는 복잡한 교육 환경 속에서도 회복탄력성을 갖고 혁신을 주도할 수 있습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 3. 교사 주도성 -->
+                <section id="agency" class="card">
+                    <h2 class="card-title"><i class="fas fa-people-arrows"></i>교사 주도성: 교육과정 변화를 이끌다</h2>
+                    <p>교사는 단순히 교육의 미래를 따르는 것이 아니라, 교육 변화를 적극적으로 이끌고 만들어가는 주체입니다. 교사 주도성이란, 교사가 개인적으로 또는 집단적으로 자신의 의도적인 행동과 결정이 전문적 실천, 학생의 학습 경험, 더 나아가 교육적 맥락 전반에 긍정적인 영향을 미칠 수 있다는 믿음을 의미합니다.</p>
+                    <div class="mt-6 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
+                        <h4 class="font-bold text-blue-800">주도성의 3가지 유형</h4>
+                        <ul class="list-none mt-2 space-y-1">
+                            <li><strong class="text-slate-700">개인 주도성 (Individual Agency):</strong> 교사 개인의 신념, 목표 지향, 의사 결정 과정을 통해 발현됩니다.</li>
+                            <li><strong class="text-slate-700">협력 주도성 (Co-agency):</strong> 학생, 동료, 학부모, AI 등 다른 주체와의 상호작용 속에서 발현되는 관계적 주도성입니다.</li>
+                            <li><strong class="text-slate-700">집단 주도성 (Collective Agency):</strong> 공동의 목표를 향해 협력적으로 행동하는 교사 집단의 공유된 신념과 역량을 의미합니다.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- 4. 교사 역량 -->
+                <section id="competencies" class="card">
+                    <h2 class="card-title"><i class="fas fa-brain"></i>교사 역량: 복잡성 탐색하기</h2>
+                    <p>효과적인 교육과정 실행은 단순히 내용을 전달하는 것을 넘어, 지식(Knowledge), 기술(Skills), 태도와 가치(Attitudes & Values)를 의도적으로 통합하여 학생의 학습과 웰빙을 증진시키는 것을 의미합니다.</p>
+                    
+                    <div class="grid md:grid-cols-3 gap-4 mt-6 text-center">
+                        <div class="p-4 bg-slate-100 rounded-lg">
+                            <i class="fas fa-book text-3xl text-blue-600 mb-2"></i>
+                            <h4 class="font-bold text-slate-800">지식 (Knowledge)</h4>
+                            <p class="text-sm">학습자, 자기 자신, 세상, 그리고 AI와 같은 새로운 기술에 대한 깊이 있는 이해</p>
+                        </div>
+                        <div class="p-4 bg-slate-100 rounded-lg">
+                            <i class="fas fa-cogs text-3xl text-blue-600 mb-2"></i>
+                            <h4 class="font-bold text-slate-800">기술 (Skills)</h4>
+                            <p class="text-sm">비판적 사고, 문제 해결, 협업, 공감 등 인지적, 사회-정서적, 실용적 기술</p>
+                        </div>
+                        <div class="p-4 bg-slate-100 rounded-lg">
+                            <i class="fas fa-seedling text-3xl text-blue-600 mb-2"></i>
+                            <h4 class="font-bold text-slate-800">태도와 가치</h4>
+                            <p class="text-sm">성장 마인드셋, 회복탄력성, 신뢰, 존중, 공정성, 연대감 등 내면의 신념 체계</p>
+                        </div>
+                    </div>
+
+                    <!-- 아코디언: AI vs 인간 -->
+                    <div class="space-y-4 mt-8">
+                        <div class="accordion-item border rounded-lg">
+                            <button class="accordion-toggle w-full flex justify-between items-center text-left p-4 bg-slate-100 hover:bg-slate-200 transition rounded-t-lg">
+                                <span class="font-semibold text-slate-800">심화 학습: 인간 교사와 AI 에이전트의 공존</span>
+                                <i class="fas fa-plus transition-transform"></i>
+                            </button>
+                            <div class="accordion-content p-0 md:p-4 border-t hidden">
+                                <div class="overflow-x-auto">
+                                    <table class="w-full text-sm text-left">
+                                        <thead class="bg-slate-200 text-slate-700">
+                                            <tr>
+                                                <th class="p-3">측면</th>
+                                                <th class="p-3">인간 지능 (교사)</th>
+                                                <th class="p-3">인공 지능 (AI)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="border-b odd:bg-white even:bg-slate-50">
+                                                <td class="p-3 font-semibold">전문적 정체성</td>
+                                                <td class="p-3">경험, 성찰, 윤리 강령을 통해 발전</td>
+                                                <td class="p-3">자아개념 없음, 할당된 기능 수행</td>
+                                            </tr>
+                                            <tr class="border-b odd:bg-white even:bg-slate-50">
+                                                <td class="p-3 font-semibold">공감</td>
+                                                <td class="p-3">정서적 인식과 배려에 기반</td>
+                                                <td class="p-3">데이터 패턴 기반 반응 시뮬레이션</td>
+                                            </tr>
+                                            <tr class="border-b odd:bg-white even:bg-slate-50">
+                                                <td class="p-3 font-semibold">창의성</td>
+                                                <td class="p-3">감정, 맥락, 경험을 바탕으로 독창적 아이디어 생성</td>
+                                                <td class="p-3">기존 데이터 패턴을 기반으로 콘텐츠 생성</td>
+                                            </tr>
+                                            <tr class="border-b odd:bg-white even:bg-slate-50">
+                                                <td class="p-3 font-semibold">의사 결정</td>
+                                                <td class="p-3">판단, 윤리, 맥락, 개인적 신념에 기반</td>
+                                                <td class="p-3">알고리즘 및 데이터 기반 최적화</td>
+                                            </tr>
+                                            <tr class="odd:bg-white even:bg-slate-50">
+                                                <td class="p-3 font-semibold">최적 통합</td>
+                                                <td class="p-3" colspan="2">상호 보완적 강점 활용: 교사는 공감, 판단, 관계 형성에 집중하고, AI는 데이터 기반의 행정, 교육, 창의적 업무를 지원하여 교육을 개인화하고 효율성을 높임. (AI 증강 인간 혁신)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- 5. 교사 웰빙 -->
+                <section id="wellbeing" class="card">
+                    <h2 class="card-title"><i class="fas fa-heart-pulse"></i>성장하는 전문가를 위한 교사 웰빙</h2>
+                    <p>교사 웰빙은 단순히 규제를 넘어 목적의식을 포용하는 것입니다. 이는 지적 자극, 사회-정서적 지원, 신체적 안정을 통합하는 역동적인 충족 상태로, 교직에 대한 깊은 동기 부여와 연결됩니다.</p>
+                     <div class="mt-6 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg">
+                        <h4 class="font-bold text-green-800">교사 웰빙의 3가지 차원</h4>
+                        <ul class="list-none mt-2 space-y-1">
+                            <li><strong class="text-slate-700">신체적 웰빙:</strong> 공정한 급여, 적절한 업무량, 안전한 교육 환경 등</li>
+                            <li><strong class="text-slate-700">인지적 웰빙:</strong> 지적 참여, 주인의식, 지속적인 전문적 성장 등</li>
+                            <li><strong class="text-slate-700">사회-정서적 웰빙:</strong> 자기 가치와 인정, 회복탄력성, 공감과 신뢰, 협업 등</li>
+                        </ul>
+                    </div>
+                    <p class="mt-4">교사 웰빙에 대한 투자는 교실을 넘어 교사 이직률을 낮추고, 교직의 지속 가능성을 높이며, 궁극적으로 미래 세대 교육의 질을 보장하는 핵심적인 가치입니다.</p>
+                </section>
+
+                <!-- 6. 학습 생태계 -->
+                <section id="ecosystem" class="card">
+                    <h2 class="card-title"><i class="fas fa-sitemap"></i>학습 생태계의 통합적 일원으로서의 교사</h2>
+                    <p>교수와 학습은 교사뿐만 아니라 다양한 행위자가 참여하는 역동적이고 상호 연결된 생태계 안에서 이루어집니다. 진정한 교육 혁신은 여러 이해관계자의 공동 노력을 필요로 합니다.</p>
+                    <blockquote class="border-l-4 border-slate-300 pl-4 italic text-slate-500 my-4">
+                        "진정한 변화는 정책 입안자, 학교 리더, 지역 사회, 민간 기업, 대학, 연구 기관 등 모두의 협력을 통해 이루어집니다."
+                    </blockquote>
+                    <p>이러한 생태계적 접근은 학교, 교사, 학생, 가족, 사회 간의 복잡한 상호작용을 인정하며, 교사를 지원하고 역량을 강화하며 동기를 부여하는 환경을 조성하는 것이 모두의 책임임을 강조합니다.</p>
+                </section>
+                
+                <!-- 결론 -->
+                <section id="conclusion" class="card bg-slate-800 text-white">
+                    <h2 class="text-2xl font-bold text-white mb-4 flex items-center"><i class="fas fa-flag-checkered mr-3 text-blue-400"></i>결론: 미래를 향한 나침반</h2>
+                    <p class="text-slate-300">OECD Teaching Compass는 교사를 교육과정 변화의 수동적 실행자가 아닌, 능동적 주체이자 설계자로 재정의합니다. 이 프레임워크는 교사들이 복잡한 미래를 탐색하고, 모든 학생이 건강하게 배우고 성장하며 현대 세계에 대비할 수 있도록 지원하는 전략적 나침반입니다.</p>
+                    <p class="mt-4 text-slate-200">교사를 지원하는 것은 단순히 교직을 위한 투자가 아니라, 우리 사회의 미래를 위한 가장 중요한 투자입니다.</p>
+                    <div class="text-center mt-6">
+                        <a href="https://www.oecd-ilibrary.org/education/oecd-teaching-compass_a72a7a4f-en" target="_blank" class="btn bg-white text-blue-600 hover:bg-slate-100">
+                           <i class="fas fa-file-pdf mr-2"></i> 원문 보고서 보기
+                        </a>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+    
+    <footer class="text-center py-6 bg-slate-200 text-slate-500 text-sm">
+        <p>© 2024 교사 재교육 프로그램. OECD Teaching Compass 자료 기반.</p>
+        <p>This content is for educational purposes and is based on the OECD report.</p>
+    </footer>
+
+    <script>
+        // 아코디언 스크립트
+        document.querySelectorAll('.accordion-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const accordionContent = button.nextElementSibling;
+                const icon = button.querySelector('i');
+
+                button.setAttribute('aria-expanded', accordionContent.classList.contains('hidden') ? 'true' : 'false');
+                accordionContent.classList.toggle('hidden');
+                icon.classList.toggle('fa-plus');
+                icon.classList.toggle('fa-minus');
+            });
+        });
+    </script>
+
+</body>
+</html>
